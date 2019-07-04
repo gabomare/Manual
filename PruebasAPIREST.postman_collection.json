@@ -1,0 +1,170 @@
+{
+	"id": "dda3aac9-7f1a-c268-c0d1-75f14b03c13d",
+	"name": "PruebasAPIREST",
+	"description": "",
+	"order": [
+		"8d958b36-3bb2-186a-325c-1824a8d95e49",
+		"5d70d39e-e4c5-c696-e1ed-26c4ada27d21",
+		"c4a508b4-58d4-7548-4629-10b149f73864",
+		"1dad5468-0515-8954-cc1e-7264e8dfe28e"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1562213331703,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "1dad5468-0515-8954-cc1e-7264e8dfe28e",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:58189/ancestro?nodos=67,39,76,28,44,74,85,29,83,87&valorNodo1=29&valorNodo2=76",
+			"queryParams": [
+				{
+					"key": "nodos",
+					"value": "67,39,76,28,44,74,85,29,83,87",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "valorNodo1",
+					"value": "29",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "valorNodo2",
+					"value": "76",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "dda3aac9-7f1a-c268-c0d1-75f14b03c13d",
+			"data": null,
+			"dataMode": "params",
+			"name": "Ancestro67_de_nodos_29_y_76",
+			"description": "Se proporcionan los nodos 29 y 76 para obtener el ancestro común 67",
+			"descriptionFormat": "html",
+			"time": 1562213700284,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "5d70d39e-e4c5-c696-e1ed-26c4ada27d21",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:58189/arbol",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "dda3aac9-7f1a-c268-c0d1-75f14b03c13d",
+			"data": [],
+			"dataMode": "raw",
+			"name": "CreacionArbolSinNodos",
+			"description": "Requests para probar el método de creación del árbol del API REST ",
+			"descriptionFormat": "html",
+			"time": 1562213403941,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{nodos: \"\"}"
+		},
+		{
+			"id": "8d958b36-3bb2-186a-325c-1824a8d95e49",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:58189/arbol",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "dda3aac9-7f1a-c268-c0d1-75f14b03c13d",
+			"data": [],
+			"dataMode": "raw",
+			"name": "CreacionArbol",
+			"description": "Requests para probar el método de creación del árbol del API REST ",
+			"descriptionFormat": "html",
+			"time": 1562213338711,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{nodos: \"67,39,76,28,44,74,85,29,83,87\"}"
+		},
+		{
+			"id": "c4a508b4-58d4-7548-4629-10b149f73864",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:58189/ancestro?nodos=67,39,76,28,44,74,85,29,83,87&valorNodo1=29&valorNodo2=44",
+			"queryParams": [
+				{
+					"key": "nodos",
+					"value": "67,39,76,28,44,74,85,29,83,87",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "valorNodo1",
+					"value": "29",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "valorNodo2",
+					"value": "44",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "dda3aac9-7f1a-c268-c0d1-75f14b03c13d",
+			"data": null,
+			"dataMode": "params",
+			"name": "Ancestro39_de_nodos_29_y_44",
+			"description": "Se proporcionan los nodos 29 y 44 para obtener el ancestro común 39",
+			"descriptionFormat": "html",
+			"time": 1562213543888,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
